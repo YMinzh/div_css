@@ -1,0 +1,66 @@
+
+.page{
+    height: 730px;
+    width: 100%;
+    display: flex;
+
+}
+.page .left{
+    padding-top: 30px;
+    width: 400px;
+    height: 700px;
+    background-color: #0e162e;
+}
+.page .left .leftTop{
+    width: 335px;
+    height: 65px;
+    margin: 0 auto;
+    background-color: #394255;
+}
+
+.page .left .leftMain .navList{
+    padding-left: 0;
+    list-style: none;
+}
+.page .left .leftMain .navList .nav0{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    font-size: 32px;
+    color: #a5aab3;
+}
+.page .left .leftMain .navList .nav1{
+    color: white;
+    background-color: #5666ff;
+}
+.page .left .leftMain .navList .nav0 .iconfont{
+    font-size: 32px;
+    margin: 0 25px 0 50px;  
+}
+
+.page .right{
+    background-color: #f0f1f5;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+.page .right .rightTop{
+    background-color:white;
+    height: 130px;
+}
+.page .right .rightTop .iconfont{
+    font-size: 32px;
+    margin-left: 50px;
+    line-height: 130px;
+}
+.page .right .rightMain{
+    background-color: #fff;
+    margin: 40px 25px;
+    flex-grow: 1;
+    padding: 50px 45px;
+}
+.page .right .rightMain .text{
+    font-size: 32px;
+    color: #5c5c5c;
+}

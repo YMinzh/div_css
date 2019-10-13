@@ -1,0 +1,99 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+.top{
+   background-color: #0e162e;
+   height: 127px; 
+
+}
+body{
+    background-color: #f0f1f5;
+}
+.center{
+    width: 1240px;
+    margin: 0 auto;
+}
+
+.top .center .left{
+    height: 127px;
+    float: left;
+    display: flex;
+    align-items: center;
+}
+
+.top .center .left .box{
+    background-color: #394255;
+    width: 240px;
+    height: 65px;
+    margin-right: 50px;
+}
+
+.top .center .right{
+    float: left;
+}
+.top .center .right .navList{
+    display: flex;
+    align-items: baseline;
+    
+}
+.top .center .right .navList .nav0{
+    display: flex;
+    height: 127px;
+    width: 150px;
+    align-items: center;
+}
+.top .center .right .navList .nav0 .navText{
+    margin: 0 auto;
+    font-size: 32px;
+    color: #a5aab3;
+    font-weight: bold;
+}
+.top .center .right .navList .nav1{
+    background-color: #5666ff;
+}
+.top .center .right .navList .nav1 .navText{
+    
+    color: #fff;
+}
+.page{
+    background-color: #f0f1f5;
+}
+.page .center .title{
+    height: 127px;
+    line-height: 127px;
+    font-size: 32px;
+    color: #a5aab3;
+    font-weight: bold;
+}
+.page .center .title .t2::before,.page .center .title .t2::after{
+    content: "/";
+    margin: 0 15px; 
+    color: #a5aab3;
+}
+.page .center .title .t3{
+    color: #555457;
+}
+.page .center .main{
+    height: 800px;
+    width: 100%;
+    background-color: white;
+}
+.page .center .main .textArea{
+    font-weight: bold;
+    font-size: 32px;
+    color: #555457;
+    width: 92%;
+    padding-top: 60px;
+    margin: 0 auto;
+}
+
+.page .center .foot{
+    display: flex;
+    justify-content: center;
+    height: 127px;
+    line-height: 127px;
+    font-size: 32px;
+}

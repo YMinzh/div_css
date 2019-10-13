@@ -1,0 +1,37 @@
+{
+  "id": "1455634",
+  "name": "demo2",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "483747",
+      "name": "视频",
+      "font_class": "shipin",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "4346245",
+      "name": "上传",
+      "font_class": "fenxiang",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "9498945",
+      "name": "菜单",
+      "font_class": "menu-open-copy",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "9986729",
+      "name": "个人中心",
+      "font_class": "renwu",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    }
+  ]
+}
